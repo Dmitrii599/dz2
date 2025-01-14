@@ -1,19 +1,35 @@
 * {
     /* Свойства для сброса начальных стилей элементов */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {}
+
+body {
+    font-family: "Inter", sans-serif;
+}
 
 header {
     /* Стили для хедера */
+    background-color: #2965f1;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
+    
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
 }
 
 .main-section {
     /* Стили для первой секции */
+    background-color: #fafaff;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .main-title {
